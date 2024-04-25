@@ -23,6 +23,11 @@
     border: none;
     background-color: #5E4DCC;
     color: white;
+    cursor: pointer;
+}
+
+.getStartedCenario:hover {
+    background-color: #3e2ea0;
 }
 
 .spanText {
@@ -34,7 +39,79 @@
     place-items: center;
 }
 
-
 .rocket {
     width: 1rem;
+}
+
+.navBar {
+    background-color: #FFD1DD;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.divLogo {
+    margin-left: 5rem;
+}
+
+.listItems {
+    display: flex;
+    gap: 1rem;
+    color: #5E4DCC;
+}
+
+.listItems li {
+    list-style-type: none;
+    position: relative;
+}
+
+.listItems li a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.listItems li:hover:after {
+    content: '';
+    display: flex;
+    position: absolute;
+    height: .2rem;
+    width: 100%;
+    background-color: #5E4DCC;
+}
+
+.divForNavItems {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-right: 10rem;
+}
+
+.divForDemoAndLogIn {
+    display: flex;
+    gap: .5rem;
+}
+
+.divForDemoAndLogIn button {
+    cursor: pointer;
+    padding: 1rem 1.5rem;
+    border: none;
+}
+
+.btnDemo {
+    background-color: #5E4DCC;
+    color: white;
+}
+
+.btnDemo:hover {
+    background-color: #3e2ea0;
+}
+
+.btnLogIn {
+    background-color: white;
+    color: #5E4DCC;
+}
+
+.btnLogIn:hover {
+    background-color: rgba(255, 255, 255, 0.774);
 }
