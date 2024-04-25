@@ -1,1 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+.getCenario {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+    background-color: #FF4D7B;
+}
+
+.getStartedCenario {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: .25rem;
+    padding: .5rem 3rem;
+    border: none;
+    background-color: #5E4DCC;
+    color: white;
+}
+
+.spanText {
+    color: white;
+}
+
+.spanForImg {
+    display: grid;
+    place-items: center;
+}
+
+
+.rocket {
+    width: 1rem;
+}
