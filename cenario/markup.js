@@ -24,6 +24,7 @@ const rocket = createEl('img', 'rocket', '');
 rocket.setAttribute('src', 'images/rocket.png')
 
 
+
 spanForImg.appendChild(rocket)
 
 const spanForText = createEl('span', 'spanForText', '');
